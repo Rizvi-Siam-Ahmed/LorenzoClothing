@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: Georgia, ui-serif, Cambria, "Times New Roman", Times, serif;
+  --color-brand-light: #d5a95d;
+  --color-brand-main: #a2762a;
+  --color-brand-dark: #513b15;
+  --color-brand-content: #d5a95d;
+  --color-brand-muted: #c49952;
+}
+
+body {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+  font-family: var(--font-serif);
+  margin: 0;
+  padding: 0;
+}
+
+
